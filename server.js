@@ -4,10 +4,6 @@ const port = 3001
 
 app.use(express.json())
 
-// app.get("/",(req, res)=>{
-//  res.status(200).json("hola")
-// })
-
 app.get("/iecho",(req, res)=>{
     const {text} = req.query
     //valida si es un numero o un string
@@ -19,7 +15,7 @@ app.get("/iecho",(req, res)=>{
     else res.status(200).json({text:textReverse, palindrome: false})
 })
 
-app.listen(port,()=>{
+app.listen(process.env.PORT ? process.env.PORT:port,()=>{
     console.log("server iniciado!!")
 })
 
