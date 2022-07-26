@@ -1,0 +1,11 @@
+{
+  "name": "api-challenge-copywrite",
+  "version": "1.0.0",
+  "description": "Recibe un texto en uno de sus endpoints y lo devuelve invertido",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas De Cabrera",
+  "license": "ISC"
+}
