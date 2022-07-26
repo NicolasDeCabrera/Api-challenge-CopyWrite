@@ -6,10 +6,6 @@
 
 Esta `API` centa con un `ENDPOINT` el cual invierte el texto que le enviamos por `query` en la `url` y verifica si la palabra es `palindroma` o no. la API está Desarrollada en Node y Express.
 
-<!-- 
-<p align="left">
-  <img width=250 src="yoda.jpg" />
-</p> -->
 ### ENDPOINTS
 
 Estas son las rutas de la api:
