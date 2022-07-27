@@ -4,7 +4,7 @@
 
 ### Descripcion
 
-Esta `API` centa con un `ENDPOINT` el cual invierte el texto que le enviamos por `query` en la `url` y verifica si la palabra es `palindroma` o no. la API está Desarrollada en Node y Express.
+Esta `API` cuenta con un `ENDPOINT` el cual invierte el texto que le enviamos por `query` en la `url` y verifica si la palabra o frase es `palindroma` o no. la API está Desarrollada en Node y Express.
 
 ### ENDPOINTS
 
@@ -18,7 +18,7 @@ Estas son las rutas de la api:
 
 * Si la palabra es `Palindroma` devuelve un json con el siguiente formato: `{'text'='palabraInvertida', 'palindrome': true}`
 
-* Si lo que le ingresamos es un numero devuelve un json con el siguiente formato: `{'error': 'no-text'}`
+* Si lo que le ingresamos es un numero, devuelve un json con el siguiente formato: `{'error': 'no-text'}`
  
  **Ejemplos**:
 
@@ -29,7 +29,6 @@ GET/iecho?text=hola:
 GET/iecho?text=ana:
 * Respuesta: `{'text'='ana', 'palindrome': true}`
 * status: `200`
-
 
 GET/iecho?text=123:
 * Respuesta: `{'error': 'no-text'}`
