@@ -33,3 +33,10 @@ GET/iecho?text=ana:
 GET/iecho?text=123:
 * Respuesta: `{'error': 'no-text'}`
 * status: `400`
+
+**Instrucciones:**
+
+Para ejecutar cualquier comando debe posicionarse en la misma carpeta donde se encuentra el archivo package.json.
+
+* Correr la API: `npm start`
+* Correr los tests: `npm test`
